@@ -7,3 +7,7 @@
     border: 2px solid blue;
     box-sizing: border-box;
 }
+
+.bio-wrapper .bio.block.shadow img {
+    box-shadow: 10px 5px 5px gray;
+}
