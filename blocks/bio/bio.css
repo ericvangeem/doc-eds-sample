@@ -8,6 +8,16 @@
     box-sizing: border-box;
 }
 
-.bio-wrapper .bio.block.shadow img {
-    box-shadow: 10px 5px 5px gray;
+.bio>div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.bio>div>div:first-child {
+    flex-shrink: 0;
+}
+
+.bio>div>div:last-child {
+    flex-grow: 1;
 }
